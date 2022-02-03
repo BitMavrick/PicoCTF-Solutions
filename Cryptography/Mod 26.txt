@@ -1,0 +1,2 @@
+Just decode the ciphertext in ROT13. I use ‘https://cryptii.com/pipes/rot13-decoder’ this decoder and its worked properly.
+--- SOLVED!
