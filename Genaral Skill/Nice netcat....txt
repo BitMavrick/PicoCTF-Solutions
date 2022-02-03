@@ -1,0 +1,5 @@
+There's is a given command,
+	1. Run the command in the terminal. It will give some ASCII value.
+	2. Decode it with converter, in my case, I use ‘https://codebeautify.org/ascii-to-text’ to convert.
+	3. It will gave us the flag.
+--- SOLVED!

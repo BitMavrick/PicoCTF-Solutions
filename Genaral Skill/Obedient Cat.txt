@@ -1,0 +1,3 @@
+Its a basic problem, the given file ‘flag’ has no extension.
+Just open up ta file with VS code or notepad(windows), the flag is there.
+--- SOLVED!

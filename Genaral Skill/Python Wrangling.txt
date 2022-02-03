@@ -1,0 +1,9 @@
+There is total 3 given data, main code ‘ende.py’, key value ‘flag.txt.en’ and a password ‘pw.txt’.
+Solving process:
+	1. Download all those file in folder.
+	2. Open a terminal there.
+	3, Run ‘python ende.py -d flag.txt.en’
+	4. Then it will ask for the password.
+	5. Copy the password from ‘pw.txt’ and paste the password.
+	6. It will docode the flag.
+--- SOLVED!

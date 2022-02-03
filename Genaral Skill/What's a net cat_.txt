@@ -1,0 +1,5 @@
+There's given an web address and a port number, we have to net-cat [nc for linux] the web address through the port.
+		To do that, follow the steps,
+			1. Run the command in terminal ‘nc <the address> <the port number>’. [ex. ‘nc jupiter.challenges.picoctf.org 25103’]
+			2. It will gave us the flag.
+		--- SOLVED!

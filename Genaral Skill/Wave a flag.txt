@@ -1,0 +1,5 @@
+There is a given a binary program ‘warm’ download it in a folder and open a teminal there and follow the steps,
+	1. Run ‘chmod +x warm’
+	2. Then run ‘./warm -h’
+	3. It will give the flag.
+--- SOLVED!

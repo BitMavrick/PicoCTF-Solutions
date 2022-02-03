@@ -1,0 +1,16 @@
+Download these to file ‘static’ and ‘Bash sript’ and put them in a folder.
+		1. Open the code editor [VS code] and select the folder.
+		2. To understand what is the static file is, open up the vs code terminal and run ‘file static’
+		3. It will show that is a executable file.
+		4. So, lets excute it..
+		5. run ‘chmod +x static’ press enter
+		6. and then run ‘./static’
+		7. It will be told us that the flag is aroud there.
+		8. So lets run the ‘ltdis.sh’ the bash file.
+		9. so run ‘chmod +x ltdis.sh’
+		10. then run ‘./ltdis.sh’
+		11. It will show an error it said that we have be an specif about what program we run,
+		12. now this time run ‘./ltdis.sh static’
+		13. it will run properly and look at the new created text file of folder.
+		14. The flag is one of the text file
+--- SOLVED!
