@@ -1,0 +1,31 @@
+In this problem there's given a chiphertext and encryption algorithm, our flag is encrypted by this algorithm.
+To solve this problem we make to build e decryption algorithm and decrypt our flag.
+
+ >> Here's the given encryption algorithm:
+	flag = "mehedi hasan"
+
+	encrypted_flag = ''.join(
+    	[chr((ord(flag[i]) << 8) + ord(flag[i + 1]))
+    	 for i in range(0, len(flag), 2)])
+	print(encrypted_flag)
+
+
+ >> And, here's the decryption algorithm that I build,
+
+	dec = '灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸彥ㄴㅡて㝽'
+	encode = ''
+
+	for j in range(0, len(dec)):
+    	dec_value = ord(dec[j])
+    	for i in range(48, 123, 1):
+        	first_char_dec = dec_value - i
+        	first_char = (first_char_dec >> 8)
+        	if first_char >= 48 and first_char <= 122:
+            	encode = encode + chr(first_char)
+            	value2 = (first_char << 8)
+            	second_char = dec_value - value2
+            	encode = encode + chr(second_char)
+            	break
+	print(encode)
+	
+--- SOLVED!
