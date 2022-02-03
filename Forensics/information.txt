@@ -1,0 +1,10 @@
+• Given a picture of a cat.
+	The solving process are follows,
+	1. Check the meta-data of the picture, to do so, we have to use a linux tool name ‘exiftool’.
+	2. Run ‘exiftool cat.jpg’
+	3. It will show the meta data of the picture.
+	4. Look at the license number, its a hash, so we have to decode the hash.
+	5. Copy the hash value.
+	6. and run “echo "cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9" | base64 -d”
+	7. It will give us the flag.
+--- SOLVED!
